@@ -18,7 +18,7 @@ The code used for each stage of the project can be found in its corresponding di
 ### data-processing
   db_response_time.py: used for timing the performance of local Elasticsearch database
   
-  parse_user_agent.pu: used for parsing raw user agents to interpretable JSON structures, using local database, or online database (via                           whatismybrowser.com API) if user agent was not present in local database
+  parse_user_agent.py: used for parsing raw user agents to interpretable JSON structures, using local database, or online database (via                           whatismybrowser.com API) if user agent was not present in local database
   
 ### data-analysis
   getRange.py: used for analysing local database to get range of devices found on the UNSW network
@@ -30,3 +30,12 @@ The code used for each stage of the project can be found in its corresponding di
   traffic_count.py: used for counting how many entries are in a .csv log file(s) - often in the order of millions
   
   unique_ua.go: analyses a .csv log file(s) and extracts all the unique user agents found
+  
+  ## Built with
+  * [whatismybrowser](https://developers.whatismybrowser.com/useragents/explore/) - The online database used
+  * [Parse your own user agent!](https://developers.whatismybrowser.com/useragents/parse/#parse-useragent)
+  * [Sample JSON entry in local Elasticsearch database](http://telescope-qosmos.sdn.unsw.edu.au:9200/traffic/_doc/n81O9m0BbiGCL6DIom1W) - Best viewed on Firefox browser
+  
+  
+  
+  
