@@ -23,13 +23,13 @@ The code used for each stage of the project can be found in its corresponding di
 ### data-analysis
 *  **getRange.py**: used for analysing local database to get range of devices found on the UNSW network
   
-*  **getTrafficForIP.py**: analyses a .csv log file(s) and extracts traffic flows from a specified IP address
+*  **getTrafficForIP.py**: analyses .csv log file(s) and extracts traffic flows from a specified IP address
   
 *  **mapped_uas.go**: maps all the user agents detected under each IP address (used for detecting NAT and static gateways)
   
 *  **traffic_count.py**: used for counting how many entries are in a .csv log file(s) - often in the order of millions
   
-*  **unique_ua.go**: analyses a .csv log file(s) and extracts all the unique user agents found
+*  **unique_ua.go**: analyses .csv log file(s) and extracts all the unique user agents found
   
   ## Built with
   * [whatismybrowser](https://developers.whatismybrowser.com/useragents/explore/) - The online database used
