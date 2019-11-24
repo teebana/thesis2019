@@ -33,7 +33,7 @@ The code used for each stage of the project can be found in its corresponding di
   
   ## Built with
   * [whatismybrowser](https://developers.whatismybrowser.com/useragents/explore/) - The online database used
-  * [Parse your own user agent!](https://developers.whatismybrowser.com/useragents/parse/#parse-useragent)
+  * [Parse your own user agent!](https://developers.whatismybrowser.com/useragents/parse/?analyse-my-user-agent=yes#parse-useragent)
   * [Sample JSON entry in local Elasticsearch database](http://telescope-qosmos.sdn.unsw.edu.au:9200/traffic/_doc/n81O9m0BbiGCL6DIom1W) - Best viewed on Firefox browser
   
   
